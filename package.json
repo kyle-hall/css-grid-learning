@@ -1,0 +1,8 @@
+{
+  "name": "css-grid-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kyle-hall/css-grid-learning.git",
+  "author": "Kyle Hall <hallkd47@gmail.com>",
+  "license": "MIT"
+}
