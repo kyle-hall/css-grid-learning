@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:kyle-hall/css-grid-learning.git",
   "author": "Kyle Hall <hallkd47@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "browser-sync": "./node_modules/.bin/browser-sync start -s 'public' -f 'public'",
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.0"
+  }
 }
