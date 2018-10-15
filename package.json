@@ -6,9 +6,12 @@
   "author": "Kyle Hall <hallkd47@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "browser-sync": "./node_modules/.bin/browser-sync start -s 'public' -f 'public'",
+    "start": "./node_modules/.bin/browser-sync start -s 'public' -f 'public'"
   },
   "devDependencies": {
     "browser-sync": "^2.26.0"
+  },
+  "dependencies": {
+    "tachyons": "^4.11.1"
   }
 }
